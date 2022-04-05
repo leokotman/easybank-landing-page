@@ -1,0 +1,24 @@
+/* line 1, styles.scss */
+* { margin: 0; padding: 0; }
+/* line 5, styles.scss */
+* body { font-size: 18px; font-family: "Public Sans", sans-serif; }
+/* line 9, styles.scss */
+* body .container { max-width: 80vw; margin: 0 auto; }
+/* line 15, styles.scss */
+* body .header__container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+/* line 21, styles.scss */
+* body .main__header { background-image: url("./images/bg-intro-desktop.svg"); background-position: 40vw center; background-size: cover; background-repeat: no-repeat; }
+/* line 27, styles.scss */
+* body .main__block { max-width: 40%; }
+/* line 32, styles.scss */
+* body .main__items { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+/* line 37, styles.scss */
+* body .main .item { min-width: 20%; max-width: 24%; }
+/* line 42, styles.scss */
+* body .footer { background-color: #2d314d; }
+/* line 44, styles.scss */
+* body .footer__container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+/* line 48, styles.scss */
+* body .footer__block { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+/*# sourceMappingURL=styles.css.map */

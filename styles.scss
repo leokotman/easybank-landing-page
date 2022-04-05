@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  body {
+    font-size: 18px;
+    font-family: "Public Sans", sans-serif;
+    
+    .container {
+      max-width: 80vw;
+      margin: 0 auto;
+    }
+
+    .header {
+      &__container {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    .main {
+      &__header {
+        background-image: url('./images/bg-intro-desktop.svg');
+        background-position: 40vw center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &__block {
+        max-width: 40%;
+      }
+      &__pros {
+      }
+      &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
+      }
+      .item {
+        min-width: 20%;
+        max-width: 24%;
+      }
+    }
+    .footer {
+      background-color: hsl(233, 26%, 24%);
+      &__container {
+        display: flex;
+        justify-content: space-between;
+      }
+      &__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+}
