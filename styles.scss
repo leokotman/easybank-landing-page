@@ -10,11 +10,46 @@
       max-width: 80vw;
       margin: 0 auto;
     }
+    a {
+      text-decoration: none;
+    }
+    .btn_invite {
+      background: linear-gradient(0.25turn, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+      padding: .75rem 2rem;
+      font-size: .75rem;
+      border-radius: 30px;
+      color: #fff;
+    }
+    .text {
+      color:hsl(233, 8%, 62%);
+      font-weight: 300;
+    }
+    .logo {
+      height: 1.4rem;
+    }
+    .h1 {
+      font-size: 1.8rem;
+      color: hsl(233, 26%, 24%);
+      font-weight: 400;
+    }
 
     .header {
       &__container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        padding: 1.2rem 0;
+      }
+      .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 30%;
+        gap: 0 2rem;
+
+        &__item {
+          font-size: .7rem;
+        }
       }
     }
     .main {
